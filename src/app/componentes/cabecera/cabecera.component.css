@@ -1,5 +1,8 @@
-header{
-    height: 150px;
+header {
+    background-color: rgb(122, 122, 122);
+    position: sticky;
+    top: -1px;
+    height: 90px;
     border: 1px solid green;
     display: flex;
 
@@ -9,8 +12,19 @@ header{
     padding-left: 3.5%;
     padding-right: 3.5%;
 }
+
+.titleCabecera {
+    text-align: justify;
+    size: 1vw;
+}
+
+.botonesCabecera{
+    
+}
+
 /* BUSCAR UNA FUENTE GUAY Y CAMBIAR COLORES */
-a{
+a {
     margin-left: 10px;
     margin-right: 10px;
+    size: 1.5vw;
 }
