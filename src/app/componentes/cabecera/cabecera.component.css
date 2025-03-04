@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(122, 122, 122);
+    background-color: #D79771;
     position: sticky;
     top: -1px;
     height: 90px;
@@ -16,10 +16,6 @@ header {
 .titleCabecera {
     text-align: justify;
     size: 1vw;
-}
-
-.botonesCabecera{
-    
 }
 
 /* BUSCAR UNA FUENTE GUAY Y CAMBIAR COLORES */

@@ -47,9 +47,14 @@
   border-radius: 50vh;
 }
 
+.textoMain{
+  padding-left: 23px;
+  padding-right: 23px;
+  text-align: justify;
+  font-size: 1.9vw;
+}
 .mainParrafo {
   width: 50vw;
-  font-size: 2.1vw;
 }
 
 .proyectos {
