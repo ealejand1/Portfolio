@@ -1,6 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
-:root{
-    background-color:#753422;
-    color: #FFEBC9;
+:root {
+    --color-primario: #753422;
+    /*marron oscuro 50%*/
+    --color-secundario: #B05B3B;
+    /*Naranja-marron*/
+    --color-acento: #D79771;
+    /*Beige*/
+    --color-fondo: #FFEBC9;
+    --color-texto: #3D1E13;
 }
+
 /* https://colorhunt.co/palette/753422b05b3bd79771ffebc9 */
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: 'Poppins', sans-serif;
+}

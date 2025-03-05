@@ -1,9 +1,9 @@
 header {
-    background-color: #D79771;
+    background-color: var(--color-acento);
     position: sticky;
     top: -1px;
     height: 90px;
-    border: 1px solid green;
+    border-bottom: 2px solid var(--color-primario);
     display: flex;
 
     justify-content: space-between;
