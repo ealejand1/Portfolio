@@ -1,4 +1,5 @@
 .cajaNombre{
+    color: var(--color-primario);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,17 +7,18 @@
 
 .cajaT{
     font-weight: bold;
+    text-shadow: 1px 1px 0 black;
 }
 .cajaT.titulo1{
-    font-size: 3.5vw;
+    font-size: 3.3vw;
 }
 .cajaT.titulo2{
-    font-size: 3.9vw;
+    font-size: 3.6vw;
 }
 
 .cajaFooter{
-    height: 225px;
-    border: 1px solid blanchedalmond;
+    height: 240px;
+    border-top: 1px solid var(--color-texto);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -32,14 +34,20 @@
 }
 
 .cajaIconF{
-    border: 2px solid grey;
+    border: 2px solid var(--color-texto);
     border-radius: 80%;
     width: 70px;
     height: 70px;
-    
+    background-color: var(--color-secundario);
+
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.cajaIconF:hover{
+    background-color: var(--color-primario);
+    transform: scale(1.06);
 }
 
 .iconFooter{

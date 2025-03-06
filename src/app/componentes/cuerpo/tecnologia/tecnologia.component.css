@@ -3,17 +3,24 @@
     width: 120px;
     height: 110px;
     margin: auto;
+    font-size: 1em;
     
-    color: black;
-    background-color: rgb(243, 243, 243);
+    color: var(--color-texto);
+    background-color:var(--color-acento);
     
-    border-radius: 24px;
-    border: solid 2px rgba(132, 0, 255, 0.404);
+    border-radius: 13px;
+    border: solid 2px var(--color-primario);
   
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: space-evenly;
+  }
+
+  .tecCaja:hover{
+    background-color: var(--color-primario);
+    color: black;
+    transform: scale(1.02);
   }
 
   .tecCaja .icon {

@@ -1,17 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
-:root {
+/* :root {
     --color-primario: #753422;
     /*marron oscuro 50%*/
-    --color-secundario: #B05B3B;
+    /* --color-secundario: #B05B3B; */
     /*Naranja-marron*/
-    --color-acento: #D79771;
-    /*Beige*/
-    --color-fondo: #FFEBC9;
-    --color-texto: #3D1E13;
-}
-
+    /* --color-acento: #f4b48e; */
+    /*Beige D79771 */
+    /* --color-fondo: #FFEBC9; */
+    /* --color-texto: #3D1E13; */
+/* } */
 /* https://colorhunt.co/palette/753422b05b3bd79771ffebc9 */
 
+
+:root {
+    --color-primario: #52cfc4;
+    --color-secundario: #3490DE;
+    --color-acento: #6639A6;
+    --color-fondo: #521262;
+    --color-texto: #d8d8d8;
+}
+/* https://colorhunt.co/palette/6fe7dd3490de6639a6521262 */
 body {
     background-color: var(--color-fondo);
     color: var(--color-texto);
