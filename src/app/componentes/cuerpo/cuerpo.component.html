@@ -22,16 +22,17 @@
     <section class='proyectos'>
       <h2 class="titProyectos">Proyectos</h2>
       <section class="cajas">
-        <app-proyecto class="caja"/>
         <app-proyecto class="caja" />
-        <app-proyecto class="caja"/>
+        <app-proyecto class="caja" />
+        <app-proyecto class="caja" />
       </section>
     </section>
 
-      <section class="tecnologias">
+    <section class="tecnologias">
       <h2 class="titulo">Tecnologias</h2>
-      <app-tecnologia/>
+      <app-tecnologia *ngFor="let tec of tecnologias" [tecnologia]="tec"/>
       <!-- 
+      
       <div class="tecCaja">
         Typescript
         <img class="icon" src="images/ts.svg" alt="" />

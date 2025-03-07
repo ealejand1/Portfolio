@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-tecnologia',
@@ -8,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrl: './tecnologia.component.css'
 })
 export class TecnologiaComponent {
+
+  @Input() tecnologia:string = '';
+  imagenUrl:string = '';
+  OnInit(){
+    this.imagenUrl = 'images/'+this.tecnologia+'.png';
+    console.log(this.imagenUrl);
+  }
+  
 
 }
