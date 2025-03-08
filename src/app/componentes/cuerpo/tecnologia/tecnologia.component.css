@@ -3,8 +3,6 @@
     width: 120px;
     height: 110px;
     margin: auto;
-    font-size: 1em;
-    
     color: var(--color-texto);
     background-color:var(--color-acento);
     
@@ -21,6 +19,13 @@
     background-color: var(--color-primario);
     color: black;
     transform: scale(1.02);
+    font-size: 1.0em;
+    z-index: -1;
+  }
+
+  .tecTxt{
+    font-size: 0.9em;
+    text-transform: uppercase;
   }
 
   .tecCaja .icon {

@@ -10,11 +10,5 @@ import { Component, Input } from '@angular/core';
 export class TecnologiaComponent {
 
   @Input() tecnologia:string = '';
-  imagenUrl:string = '';
-  OnInit(){
-    this.imagenUrl = 'images/'+this.tecnologia+'.png';
-    console.log(this.imagenUrl);
-  }
-  
 
 }
