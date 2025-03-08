@@ -12,9 +12,9 @@
           soluciones.<br>
         </p>
         <div class="cajaBotonesM">
-          <button class="botonesMain">Github</button>
-          <!-- <button class="botonesMain">CV</button>
-          <button class="botonesMain">Linkedin</button> -->
+          <button class="botonesMain" (click)="botonClick()">Github</button>
+          <button class="botonesMain" (click)="botonClick2()">Linkedin</button>
+          <!-- <button class="botonesMain">CV</button> -->
         </div>
       </div>
     </section>
@@ -31,52 +31,6 @@
     <section class="tecnologias">
       <h2 class="titulo">Tecnologias</h2>
       <app-tecnologia *ngFor="let tec of tecnologias" [tecnologia]="tec"/>
-      <!-- 
-      
-      <div class="tecCaja">
-        Typescript
-        <img class="icon" src="images/ts.svg" alt="" />
-      </div>
-
-      <div class="tecCaja">
-        Angular
-        <img class="icon" src="images/angular.svg" alt="" />
-      </div>
-
-      <div class="tecCaja">
-        Vue
-        <img class="icon" src="images/vue.svg" alt="" />
-      </div>
-
-      <div class="tecCaja">
-        Java
-        <img class="icon" src="images/java.svg" alt="" />
-      </div>
-
-      <div class="tecCaja">
-        SpringBoot
-        <img class="icon" src="images/sts.svg" alt="" />
-      </div>
-
-      <div class="tecCaja">
-        MySQL
-        <img class="icon" src="images/mysql.svg" alt="" />
-      </div>
-
-      <div class="tecCaja">
-        PHP
-        <img class="icon" src="images/php.svg" alt="" />
-      </div>
-
-      <div class="tecCaja">
-        Bash
-        <img class="icon" src="images/bash.svg" alt="" />
-      </div>
-
-      <div class="tecCaja">
-        Git
-        <img class="icon" src="images/github.svg" alt="" />
-      </div> -->
     </section>
   </main>
 </body>

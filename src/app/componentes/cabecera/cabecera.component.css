@@ -11,6 +11,7 @@ header {
 
     padding-left: 3.5%;
     padding-right: 3.5%;
+    z-index: 1;
 }
 
 .titleCabecera {

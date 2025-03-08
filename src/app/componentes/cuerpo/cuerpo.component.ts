@@ -18,6 +18,11 @@ export class CuerpoComponent {
     this.tecnologias = new Tecnologias().obtenerTecnologias();
     }
 
-  
+  botonClick():void{
+    window.location.href = "https://github.com/ealejand1";
+  }
+  botonClick2():void{
+    window.location.href = "https://www.linkedin.com/in/erik-javier-alejandro-quezada-421195198/";
+  }
 
 }
