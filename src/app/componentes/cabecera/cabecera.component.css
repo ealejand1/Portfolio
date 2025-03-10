@@ -9,8 +9,8 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding-left: 3.5%;
-    padding-right: 3.5%;
+    padding-left: 10.5%;
+    padding-right: 10.5%;
     z-index: 1;
 }
 
@@ -19,7 +19,6 @@ header {
     size: 1vw;
 }
 
-/* BUSCAR UNA FUENTE GUAY Y CAMBIAR COLORES */
 a {
     margin-left: 10px;
     margin-right: 10px;
