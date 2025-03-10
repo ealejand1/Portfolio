@@ -1,8 +1,12 @@
-.caja {
+.cajaP {
     margin-top: 2.5vh;
     border: 1.5px solid var(--color-primario);
     padding: 20px;
     border-radius: 5px;
+}
+
+.cajaP:hover {
+    animation: opacidad 5.4s infinite;
 }
 
 .etiquetas {
@@ -19,4 +23,21 @@
     background-color: var(--color-acento);
     color: white;
     padding: 10px;
+}
+
+@keyframes opacidad {
+    20% {
+        box-shadow: 0 0 20px 5px var(--color-primario);
+    }
+
+    50% {
+        box-shadow: 0 0 10px 2px var(--color-primario);
+    }
+
+    85% {
+        box-shadow: 0 0 20px 5px var(--color-primario);
+    }
+    100%{
+        box-shadow: 0 0 0 0 var(--color-primario);
+    }
 }
