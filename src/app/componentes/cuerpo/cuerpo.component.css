@@ -93,12 +93,13 @@
   row-gap: 30px;
 }
 
-.titulo {
+.titTecnologias {
   /* row-start/column-start / row-final/column-final */
   color: var(--color-primario);
   grid-area: 1/1 /2/5;
-  text-align: justify;
+  text-align: center;
 }
 .titProyectos{
   color: var(--color-primario);
+  text-align: center;
 }
