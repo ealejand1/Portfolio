@@ -1,7 +1,7 @@
 <body>
 
   <main>
-    <section class="cajaPresentacion">
+    <section id="idPresentacion" class="cajaPresentacion">
       <aside class="aImgPerfil">
         <img src="http://github.com/ealejand1.png" alt="Foto Perfil Github" class="imagenPerfil" />
       </aside>
@@ -19,14 +19,14 @@
       </div>
     </section>
 
-    <section class='proyectos'>
+    <section id='idProyectos' class='proyectos'>
       <h2 class="titProyectos">Proyectos</h2>
       <section class="cajas">
         <app-proyecto class="caja" />
       </section>
     </section>
 
-    <section class="tecnologias">
+    <section id="idTecnologias" class="tecnologias">
       <h2 class="titTecnologias">Tecnologias</h2>
       <app-tecnologia *ngFor="let tec of tecnologias" [tecnologia]="tec"/>
     </section>
