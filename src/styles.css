@@ -2,23 +2,24 @@
 /* :root {
     --color-primario: #753422;
     /*marron oscuro 50%*/
-    /* --color-secundario: #B05B3B; */
-    /*Naranja-marron*/
-    /* --color-acento: #f4b48e; */
-    /*Beige D79771 */
-    /* --color-fondo: #FFEBC9; */
-    /* --color-texto: #3D1E13; */
+/* --color-secundario: #B05B3B; */
+/*Naranja-marron*/
+/* --color-acento: #f4b48e; */
+/*Beige D79771 */
+/* --color-fondo: #FFEBC9; */
+/* --color-texto: #3D1E13; */
 /* } */
 /* https://colorhunt.co/palette/753422b05b3bd79771ffebc9 */
 
 
 :root {
-    --color-primario: #52cfc4;
-    --color-secundario: #3490DE;
-    --color-acento: #6639A6;
-    --color-fondo: #521262;
-    --color-texto: #d8d8d8;
+    --color-primario: #205781;
+    --color-secundario: #4F959D;
+    --color-acento: #98D2C0;
+    --color-fondo: #F6F8D5;
+    --color-texto: #1C3D5A;
 }
+
 /* https://colorhunt.co/palette/6fe7dd3490de6639a6521262 */
 body {
     background-color: var(--color-fondo);

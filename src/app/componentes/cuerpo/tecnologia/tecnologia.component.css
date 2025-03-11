@@ -17,7 +17,7 @@
 
   .tecCaja:hover{
     background-color: var(--color-primario);
-    color: black;
+    color: white;
     transform: scale(1.02);
     font-size: 1.0em;
     z-index: -1;

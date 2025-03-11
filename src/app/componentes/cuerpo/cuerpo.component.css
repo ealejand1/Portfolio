@@ -21,7 +21,7 @@
   width: 11vw;
   text-align: center;
 
-  border: 1.3px solid var(--color-texto );
+  border: 1.3px solid var(--color-borde);
   border-radius: 20px;
   padding: 18px 36px;
   background-color: var(--color-secundario);
