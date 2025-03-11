@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './cabecera.component.css'
 })
 export class CabeceraComponent {
-
+  scrollToSection(sectionId: string) {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
 }
