@@ -19,10 +19,10 @@ export class CuerpoComponent {
     }
 
   botonClick():void{
-    window.location.href = "https://github.com/ealejand1";
+    window.open("https://github.com/ealejand1","_blank");
   }
   botonClick2():void{
-    window.location.href = "https://www.linkedin.com/in/erik-javier-alejandro-quezada-421195198/";
+    window.open("https://www.linkedin.com/in/erik-javier-alejandro-quezada-421195198/", "_blank");
   }
 
 }
