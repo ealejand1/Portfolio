@@ -4,10 +4,14 @@
 } */
 .cajaPresentacion {
   margin-top:30px ;
-  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 72.5vw;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  gap: 30px;
+
 }
 
 .cajaBotonesM{
@@ -47,7 +51,7 @@
   padding: 1.4vh;
 }
 .imagenPerfil {
-  width: 28vw;
+  width: 26vw;
   border-radius: 50vh;
 }
 
@@ -55,7 +59,7 @@
   padding-left: 23px;
   padding-right: 23px;
   text-align: justify;
-  font-size: 1.9vw;
+  font-size: 1.5vw;
 }
 .mainParrafo {
   width: 50vw;
@@ -88,15 +92,15 @@
   margin: auto;
 
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  row-gap: 30px;
+  row-gap: 20px;
 }
 
 .titTecnologias {
   /* row-start/column-start / row-final/column-final */
   color: var(--color-primario);
-  grid-area: 1/1 /2/5;
+  grid-area: 1/1 /2/6;
   text-align: center;
 }
 .titProyectos{
